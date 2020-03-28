@@ -1,0 +1,300 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.home {
+  background-color: #2c3335;
+  height: 100vh;
+  font-size: 50px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: #e3e2e2;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 715px) {
+  .home {
+    font-size: 30px;
+  }
+}
+
+.home .jumbotron {
+  background-color: #2c3335;
+}
+
+.home .adminName {
+  color: #e74292;
+}
+
+.home .border-box {
+  font-size: 20px;
+  border: 3px solid #e3e2e2;
+  padding: 5px 6px;
+  cursor: pointer;
+}
+
+.home .border-box:hover {
+  border: 3px solid #8b78e6;
+}
+
+@media only screen and (max-width: 715px) {
+  .home .border-box {
+    font-size: 15px;
+    padding: 2px 3px;
+    border: 2px solid #e3e2e2;
+  }
+}
+
+.about {
+  background-color: #0e1213;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  height: 60vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .about .bgImage {
+    display: none;
+  }
+}
+
+.about ul {
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about ul li {
+  color: #e3e2e2;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.about ul li .data {
+  color: #525759;
+  font-weight: lighter;
+}
+
+.about ul li #projectNo {
+  color: #e74292;
+}
+
+@media only screen and (max-width: 430px) {
+  .about ul li {
+    font-size: 15px;
+    overflow: hidden;
+  }
+}
+
+.about .about-text {
+  text-align: left;
+  padding-left: 60px;
+  color: #e3e2e2;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+@media only screen and (max-width: 750px) {
+  .about .about-text {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .about .about-text {
+    padding-left: 40px;
+    text-align: center;
+  }
+}
+
+.Nav {
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  background-color: #0e1213;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 3px solid #e74292;
+  z-index: 1;
+}
+
+.Nav .navbar-brand {
+  letter-spacing: 2px;
+  font-weight: bolder;
+  color: #e3e2e2;
+}
+
+@media only screen and (max-width: 430px) {
+  .Nav .navbar-brand {
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .Nav .navbar-toggler {
+    font-size: 15px;
+  }
+}
+
+.Nav span {
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.Nav span:hover {
+  color: #e74292;
+}
+
+.Nav #active {
+  color: #e74292;
+}
+
+.position {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.skills {
+  background-color: #0e1213;
+  overflow: hidden;
+  color: #e3e2e2;
+}
+
+.skills h1 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skills .skills-page {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+  .skills .skills-page {
+    font-size: 20px;
+  }
+}
+
+.skills .skills-page .percentage {
+  color: #0e1213;
+  font-weight: bolder;
+}
+
+.skills .progress {
+  color: black;
+  background-color: #525759;
+}
+
+.projects {
+  height: 50vh;
+  color: #e3e2e2;
+  background-color: #0e1213;
+  text-align: center;
+  overflow: hidden;
+}
+
+.projects h1 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.projects .subtitle {
+  color: #8b78e6;
+  text-align: center;
+}
+
+.projects .project-logo {
+  cursor: pointer;
+}
+
+.contact {
+  background-color: #0e1213;
+  color: #e3e2e2;
+  padding-bottom: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.contact h1 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact .sub-title {
+  color: #8b78e6;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact .btn {
+  float: right;
+}
+
+.contact .form {
+  background-color: black;
+  border: 1px solid #c0bfbf;
+  margin: 5px;
+  padding: 9px;
+  color: white;
+  width: 100%;
+  height: 40px;
+}
+
+.contact .textarea {
+  background-color: black;
+  color: white;
+  border: 1px solid #c0bfbf;
+  margin: 5px;
+  padding: 9px;
+  width: 100%;
+  height: 150px;
+}
+
+.footer {
+  background-color: black;
+  height: 20vh;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer .brand-logo {
+  margin: 60px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+  .footer .brand-logo {
+    margin: 10px;
+  }
+}
+
+.footer .logo-size {
+  font-size: 50px;
+  color: #e3e2e2;
+}
+
+@media only screen and (max-width: 750px) {
+  .footer .logo-size {
+    font-size: 30px;
+  }
+}
+
+.footer p {
+  color: #e3e2e2;
+  margin-top: 15px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */

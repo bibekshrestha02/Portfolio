@@ -1,0 +1,245 @@
+$Homebg-Color: #2c3335;
+$Pink-Color: #e74292;
+$Text-Color: #e3e2e2;
+$Sec-Color: #8b78e6;
+$Black1: #525759;
+$Black2: #0e1213;
+$head-familyfont: "Montserrat", sans-serif;
+html {
+  scroll-behavior: smooth;
+}
+.home {
+  background-color: $Homebg-Color;
+  height: 100vh;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $head-familyfont;
+  color: $Text-Color;
+  overflow: hidden;
+  @media only screen and (max-width: 715px) {
+    font-size: 30px;
+  }
+  .jumbotron {
+    background-color: $Homebg-Color;
+  }
+  .adminName {
+    color: $Pink-Color;
+  }
+  .border-box {
+    font-size: 20px;
+    border: 3px solid $Text-Color;
+    padding: 5px 6px;
+    cursor: pointer;
+    &:hover {
+      border: 3px solid $Sec-Color;
+    }
+    @media only screen and (max-width: 715px) {
+      font-size: 15px;
+      padding: 2px 3px;
+      border: 2px solid $Text-Color;
+    }
+  }
+}
+
+.about {
+  background-color: $Black2;
+  font-family: $head-familyfont;
+  overflow: hidden;
+  height: 60vh;
+  .bgImage {
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+  ul {
+    // text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    li {
+      color: $Text-Color;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      .data {
+        color: $Black1;
+        font-weight: lighter;
+      }
+      #projectNo {
+        color: $Pink-Color;
+      }
+      @media only screen and (max-width: 430px) {
+        font-size: 15px;
+        overflow: hidden;
+      }
+    }
+  }
+  .about-text {
+    text-align: left;
+    padding-left: 60px;
+    color: $Text-Color;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    @media only screen and (max-width: 750px) {
+      font-size: 35px;
+    }
+    @media only screen and (max-width: 430px) {
+      padding-left: 40px;
+      text-align: center;
+    }
+  }
+}
+.Nav {
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  background-color: $Black2;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 3px solid $Pink-Color;
+  z-index: 1;
+  .navbar-brand {
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: $Text-Color;
+    @media only screen and (max-width: 430px) {
+      letter-spacing: 1px;
+      font-weight: lighter;
+      font-size: 15px;
+    }
+  }
+  .navbar-toggler {
+    @media only screen and (max-width: 430px) {
+      font-size: 15px;
+    }
+  }
+
+  span {
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    &:hover {
+      color: $Pink-Color;
+    }
+  }
+  #active {
+    color: $Pink-Color;
+  }
+}
+.position {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+.skills {
+  // padding-top: 20px;
+  background-color: $Black2;
+  // height: 100vh;
+  overflow: hidden;
+  color: $Text-Color;
+  h1 {
+    font-size: 40px;
+    font-family: $head-familyfont;
+  }
+  .skills-page {
+    font-size: 30px;
+    @media only screen and (max-width: 750px) {
+      font-size: 20px;
+    }
+    .percentage {
+      color: $Black2;
+      font-weight: bolder;
+    }
+  }
+  .progress {
+    color: black;
+    background-color: $Black1;
+  }
+}
+.projects {
+  height: 50vh;
+  color: $Text-Color;
+  background-color: $Black2;
+  text-align: center;
+  overflow: hidden;
+  h1 {
+    font-size: 40px;
+    font-family: $head-familyfont;
+  }
+  .subtitle {
+    color: $Sec-Color;
+    text-align: center;
+  }
+  .project-logo {
+    cursor: pointer;
+    // border: 3px solid $Text-Color;
+    // background-color: $Text-Color;
+  }
+}
+
+.contact {
+  background-color: $Black2;
+  color: $Text-Color;
+  padding-bottom: 10px;
+  text-align: center;
+  overflow: hidden;
+  h1 {
+    font-size: 40px;
+    font-family: $head-familyfont;
+  }
+  .sub-title {
+    color: $Sec-Color;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .btn {
+    float: right;
+  }
+  .form {
+    background-color: black;
+    border: 1px solid rgb(192, 191, 191);
+    margin: 5px;
+    padding: 9px;
+    color: white;
+    width: 100%;
+    height: 40px;
+  }
+  .textarea {
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(192, 191, 191);
+    margin: 5px;
+    padding: 9px;
+    width: 100%;
+    height: 150px;
+  }
+}
+
+.footer {
+  background-color: black;
+  height: 20vh;
+  padding: 30px;
+  text-align: center;
+  .brand-logo {
+    margin: 60px;
+    cursor: pointer;
+    @media only screen and (max-width: 750px) {
+      margin: 10px;
+    }
+  }
+  .logo-size {
+    font-size: 50px;
+    color: $Text-Color;
+    @media only screen and (max-width: 750px) {
+      font-size: 30px;
+    }
+  }
+  p {
+    color: $Text-Color;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+font for text:
+->  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+ 
+->font-family: 'Montserrat', sans-serif;
+
+
+font for Header
+-> <link href="https://fonts.googleapis.com/css?family=Montserrat|Rubik&display=swap" rel="stylesheet">
+->font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif
+
+Reference taken from : http://findmatthew.com/  && sanjitsherstha.io
