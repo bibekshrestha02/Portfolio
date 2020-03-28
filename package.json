@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon app.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "clients": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run clients\"",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "Bibek Shrestha",
